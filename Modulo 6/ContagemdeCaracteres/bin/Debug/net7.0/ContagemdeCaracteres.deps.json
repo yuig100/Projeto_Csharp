@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ContagemdeCaracteres/1.0.0": {
+        "runtime": {
+          "ContagemdeCaracteres.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContagemdeCaracteres/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
