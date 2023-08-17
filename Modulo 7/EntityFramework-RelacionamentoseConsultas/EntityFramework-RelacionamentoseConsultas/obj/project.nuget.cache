@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFiZI+ZeZD+FR5+mnqmRV1Fe63icz0Onz/uTCmoM2Kmc6jE1r+f6ZMmc4udDCe7PB4lqgcINxmz8GHiS3yLxbg==",
+  "dgSpecHash": "Z6ACEBYxqY3VX9tyHAjpAesvn4xtEBZi8OSIExnchyt8SFYVneprNOtTcsNah2bvehc0Vk2MuRwE9SpF3hSr4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pedro\\Desktop\\C#\\EntityFramework-RelacionamentoseConsultas\\EntityFramework-RelacionamentoseConsultas\\EntityFramework-RelacionamentoseConsultas.csproj",
+  "projectFilePath": "C:\\Users\\Pedro\\Desktop\\C#\\Para o Curso\\Modulo 7\\EntityFramework-RelacionamentoseConsultas\\EntityFramework-RelacionamentoseConsultas\\EntityFramework-RelacionamentoseConsultas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pedro\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -14,7 +14,7 @@ namespace MeuProjeto
 {
     public class ProdutoContext : DbContext
     {
-        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Produto> Produtos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -49,8 +49,9 @@ namespace MeuProjeto
 
     class Program
     {
-        static void Main()
+        public static void listarproduto()
         {
+
             using (var context = new ProdutoContext())
             {
                 int categoriaId = 1; // Substitua pelo ID da categoria desejada
@@ -63,6 +64,65 @@ namespace MeuProjeto
                     Console.WriteLine($"Produto: {produto.Nome}, Preço: {produto.Preco}");
                 }
             }
+
+        }
+        public static void listarcategoria()
+        {
+
+            using (var context = new ProdutoContext())
+            {
+                var categoriasComContagem = context.Categoria
+                    .Include(c => c.Produtos)
+                    .Select(c => new
+                    {
+                        CategoriaNome = c.Nome,
+                        ContagemProdutos = c.Produtos.Count
+                    })
+                    .ToList();
+
+                foreach (var categoria in categoriasComContagem)
+                {
+                    Console.WriteLine($"Categoria: {categoria.CategoriaNome}, Produtos: {categoria.ContagemProdutos}");
+                }
+            }
+
+        }
+        
+        public static void retornaromaiscaro()
+        {
+
+            using (var context = new ProdutoContext())
+            {
+                var produtosMaisCarosPorCategoria = context.Categoria
+                    .Select(c => new
+                    {
+                        CategoriaNome = c.Nome,
+                        ProdutoMaisCaro = c.Produtos.OrderByDescending(p => p.Preco).FirstOrDefault()
+                    })
+                    .ToList();
+
+                foreach (var categoria in produtosMaisCarosPorCategoria)
+                {
+                    if (categoria.ProdutoMaisCaro != null)
+                    {
+                        Console.WriteLine($"Categoria: {categoria.CategoriaNome}, Produto Mais Caro: {categoria.ProdutoMaisCaro.Nome}, Preço: {categoria.ProdutoMaisCaro.Preco}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Categoria: {categoria.CategoriaNome}, Produto Mais Caro: Nenhum produto encontrado");
+                    }
+                }
+            }
+
+        }
+
+        static void Main()
+        {
+
+            listarproduto();
+            listarcategoria();
+            retornaromaiscaro();
+
         }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\bin\Debug\net7.0-windows\IntroducaoaoWindowsForms.exe
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\bin\Debug\net7.0-windows\IntroducaoaoWindowsForms.deps.json
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\bin\Debug\net7.0-windows\IntroducaoaoWindowsForms.runtimeconfig.json
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\bin\Debug\net7.0-windows\IntroducaoaoWindowsForms.dll
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\bin\Debug\net7.0-windows\IntroducaoaoWindowsForms.pdb
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.csproj.AssemblyReference.cache
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.Form1.resources
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.csproj.GenerateResource.cache
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.AssemblyInfoInputs.cache
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.AssemblyInfo.cs
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.dll
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\refint\IntroducaoaoWindowsForms.dll
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.pdb
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\IntroducaoaoWindowsForms.genruntimeconfig.cache
+C:\Users\Pedro\Desktop\C#\IntroducaoaoWindowsForms\IntroducaoaoWindowsForms\obj\Debug\net7.0-windows\ref\IntroducaoaoWindowsForms.dll
